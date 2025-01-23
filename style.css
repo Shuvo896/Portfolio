@@ -17,7 +17,7 @@ header img {
     margin: 20px auto;
     border-radius: 50%;
     border: 4px solid #e0e0e0;
-    max-width: 150px;
+    max-width: 250px; /* Larger image size for web */
     height: auto;
 }
 
@@ -117,7 +117,7 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     header img {
-        max-width: 100px;
+        max-width: 200px; /* Adjust image size for tablets */
     }
 
     header .ownername {
@@ -143,7 +143,7 @@ footer {
 
 @media (max-width: 480px) {
     header img {
-        max-width: 80px;
+        max-width: 150px; /* Adjust image size for mobile */
     }
 
     header .ownername {
