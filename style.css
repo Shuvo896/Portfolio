@@ -1,0 +1,9 @@
+body header h1{
+    text-align: center;
+}
+body header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
