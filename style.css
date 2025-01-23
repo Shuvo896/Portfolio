@@ -1,9 +1,22 @@
 body header h1{
-    text-align: center;
+    color: #333333;
+    margin-left: 34rem;
+    font-family: "Funnel Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+body header .ownername{
+    font-size: 38px;
+    color: #f8450e;
 }
 body header img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+}
+.gitlink{
+    text-decoration: none;
+    color: #f8450e;
 }
