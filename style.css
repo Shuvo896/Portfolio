@@ -17,13 +17,13 @@ header img {
     margin: 20px auto;
     border-radius: 50%;
     border: 4px solid #e0e0e0;
-    max-width: 250px; /* Larger image size for web */
+    max-width: 250px;
     height: auto;
 }
 
 header .ownername {
     font-size: 36px;
-    color: #4635B1; /* Updated purple color */
+    color: #4635B1;
     font-weight: 700;
 }
 
@@ -34,22 +34,22 @@ header .social-links {
 header .social-links a {
     margin: 0 12px;
     text-decoration: none;
-    color: #ffffff; /* Keep the text white */
+    color: #ffffff;
     font-weight: 600;
     transition: color 0.3s;
 }
 
 header .social-links a i {
-    color: #4635B1; /* Updated purple color for icons */
+    color: #4635B1;
     transition: color 0.3s;
 }
 
 header .social-links a:hover i {
-    color: #3e2b98; /* Slightly darker purple on hover */
+    color: #3e2b98;
 }
 
 header .social-links a:hover {
-    color: #a0e0ff; /* Hover effect on text */
+    color: #a0e0ff;
 }
 
 main {
@@ -60,7 +60,7 @@ main {
 }
 
 h2 {
-    color: #4635B1; /* Updated purple title */
+    color: #4635B1;
     border-bottom: 2px solid #333;
     padding-bottom: 8px;
     margin-bottom: 20px;
@@ -77,14 +77,14 @@ main article {
 main a.project-link {
     color: #ffffff;
     text-decoration: none;
-    background-color: #4635B1; /* Updated purple button */
+    background-color: #4635B1;
     padding: 6px 14px;
     border-radius: 6px;
     transition: background-color 0.3s;
 }
 
 main a.project-link:hover {
-    background-color: #3e2b98; /* Darker purple on hover */
+    background-color: #3e2b98; 
 }
 
 #contact {
@@ -114,10 +114,9 @@ footer {
     font-size: 14px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     header img {
-        max-width: 200px; /* Adjust image size for tablets */
+        max-width: 200px;
     }
 
     header .ownername {
@@ -143,7 +142,7 @@ footer {
 
 @media (max-width: 480px) {
     header img {
-        max-width: 150px; /* Adjust image size for mobile */
+        max-width: 150px;
     }
 
     header .ownername {
