@@ -10,6 +10,7 @@
     --yellow: #e5c07b;
     --red: #e06c75;
     --orange: #d19a66;
+    --wht: #ffffff;
 }
 
 /* Base Styles */
@@ -104,18 +105,6 @@ nav .container {
     color: var(--accent);
 }
 
-.nav-btn {
-    background-color: var(--accent);
-    color: var(--bg-dark);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    font-weight: 500;
-}
-
-.nav-btn:hover {
-    background-color: var(--yellow);
-    color: var(--bg-dark);
-}
 
 .hamburger {
     display: none;
