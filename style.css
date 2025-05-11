@@ -8,7 +8,7 @@
     --purple: #c678dd;
     --yellow: #e5c07b;
     --red: #e06c75;
-    --orange: #dd7310;
+    --orange: #e57036;
     --wht: #ffffff;
 }
 
@@ -194,7 +194,7 @@ main .container {
 }
 
 .btn-primary:hover {
-    background-color: var(--yellow);
+    background-color: var(--orange);
 }
 
 .btn-secondary {
@@ -250,7 +250,7 @@ section .container {
 }
 
 .milestone h3 {
-    color: var(--yellow);
+    color: var(--orange);
     margin-bottom: 0.5rem;
 }
 
@@ -268,7 +268,7 @@ section .container {
     border-left: 3px solid var(--accent);
 }
 .skill-category h3 {
-    color: var(--orange);
+    color: var(--yellow);
 }
 
 .skill-category ul {
