@@ -68,6 +68,7 @@ body {
         "footer ";
 }
 
+
 /* Navigation */
 nav {
     grid-area: nav;
@@ -125,102 +126,7 @@ nav .container {
     color: var(--purple);
 }
 
-/* main Section */
-main {
-    grid-area: main;
-    padding: 8rem 0 4rem;
-    margin-right: 1rem;
-}
-
-main .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 14rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-/* hero section */
-.hero-content {
-    max-width: 600px;
-}
-
-.hero-content h2 {
-    color: var(--purple);
-    font-size: clamp(1.5rem, 4vw, 2rem);
-}
-
-.hero-content .bio {
-    color: var(--wht);
-    padding-left: 0.3rem;
-}
-
-.subtitle {
-    color: var(--text-secondary);
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-}
-
-.blinking-cursor {
-    animation: blink 1s infinite;
-    color: var(--green);
-}
-
-@keyframes blink {
-
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-}
-
-.hero-btns {
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
-}
-
-.btn-primary {
-    background-color: var(--accent);
-    color: var(--bg-dark);
-    padding: 0.8rem 1.5rem;
-    border-radius: 4px;
-    font-weight: 500;
-}
-
-.btn-primary:hover {
-    background-color: var(--orange);
-}
-
-.btn-secondary {
-    border: 1px solid var(--accent);
-    color: var(--accent);
-    padding: 0.8rem 1.5rem;
-    border-radius: 4px;
-    font-weight: 500;
-}
-
-.btn-secondary:hover {
-    background-color: rgba(97, 175, 239, 0.1);
-}
-
-.hero-image {
-    height: 100%;
-}
-
-.hero-image img {
-    height: 22rem;
-    /* margin-left: 15rem; */
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* journey section */
+/* main */
 section {
     margin-top: 7rem;
     background-color: var(--bg-light);
@@ -258,39 +164,6 @@ section .container {
     margin-bottom: 0.5rem;
 }
 
-/* Skills Section */
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-}
-
-.skill-category {
-    background-color: var(--bg-dark);
-    padding: 1.5rem;
-    border-radius: 8px;
-    border-left: 3px solid var(--accent);
-}
-.skill-category h3 {
-    color: var(--yellow);
-}
-
-.skill-category ul {
-    list-style: none;
-}
-
-.skill-category li {
-    margin-bottom: 0.8rem;
-    position: relative;
-    padding-left: 1.5rem;
-}
-
-.skill-category li::before {
-    content: "▹";
-    position: absolute;
-    left: 0;
-    color: var(--yellow);
-}
 
 /* Sidebar */
 /* aside {
@@ -329,6 +202,7 @@ aside img {
     margin: 0.3rem 0;
     font-weight: normal;
 } */
+
 
 
 /* Footer */
