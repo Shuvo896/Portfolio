@@ -58,6 +58,7 @@ body {
     line-height: 1.6;
     color: var(--text-primary);
     background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-light) 100%);
+    
     background-attachment: fixed;
     display: grid;
     grid-template-columns: 1fr;
