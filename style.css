@@ -60,12 +60,12 @@ body {
     background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-light) 100%);
     background-attachment: fixed;
     display: grid;
-    grid-template-columns: 23rem 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 7rem 1fr 18rem;
     grid-template-areas:
-        "sbar nav "
-        "sbar main "
-        "sbar footer ";
+        "nav "
+        "main "
+        "footer ";
 }
 
 /* Navigation */
@@ -289,7 +289,7 @@ section .container {
 }
 
 /* Sidebar */
-aside {
+/* aside {
     grid-area: sbar;
     background-color: var(--bg-light);
     margin: 1rem;
@@ -313,22 +313,18 @@ aside img {
     height: 15rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid var(--primary-color); /* Optional */
+    border: 3px solid var(--primary-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar-content h2 {
     margin: 0.5rem 0;
-    /* font-size: 1.5rem; */
-    /* color: var(--primary-color); */
 }
 
 .sidebar-content h3 {
     margin: 0.3rem 0;
     font-weight: normal;
-    /* font-size: 1rem; */
-    /* color: #444; */
-}
+} */
 
 
 /* Footer */
